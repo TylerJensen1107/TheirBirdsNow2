@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+
+a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999999;
+}
+
+.tbn-section {
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	height: 400px;
+}	
+
+.tbn-centered {
+	position: absolute;
+    top: 50%; left: 50%;
+	width: 75%;
+	padding: 2em;
+	transform: translate(-50%, -50%);
+}
+
+#top-nav {
+	overflow: hidden;
+}
+
+#title {
+	float: left;
+	font-size: 5em;
+}
+
+#nav {
+	float: right;
+	font-size: 2em;
+	vertical-align: middle;
+	padding-top: 1em;
+}
